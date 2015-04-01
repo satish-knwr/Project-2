@@ -12,13 +12,17 @@
 	<table>
 		<tr><td>Name:</td><td><input type="text" id="Name"></td></tr><br />
 		<tr><td>Email:</td><td><input type="text" id="Email"></td></tr><br />
-		<tr><td>Phone:</td><td><input type="text" id="Phone"></td></tr><br />
+		<tr><td>Phone:</td><td><input type="number" id="Phone"></td></tr><br />
 	</table>
 </form>
 <input class="button" type="Submit" value="Add" onclick="show()">
-	<table>
+	<table border="1" cellspacing="10px" cellpadding="10px">
+	<tr><th>Name</th><th>Email</th><th>Phone</th><th colspan="2">Action</th></tr>
+	<tr><td><p id="d"></p></td><td><p id="e"></p></td><td><p id="f"></p></td><td><input type="button" value="Show" onclick="detail()"></td><td><input type="button" value="Delete" onclick="clear()"></td></tr>
+</table>
+<table>
 	<tr><th>Name</th><th>Email</th><th>Phone</th></tr>
-	<tr><td><p id="d"></p></td><td><p id="e"></p></td><td><p id="f"></p></td></tr>
+	<tr><td><p id="g"></p></td><td><p id="h"></p></td><td><p id="i"></p></td></tr>
 </table>
 </center>
 </body>
